@@ -1,9 +1,4 @@
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <a href="https://mad-srv.informatik.uni-erlangen.de/InnoLab/ss24/golf-drone/">
-    <img src="https://mad-srv.informatik.uni-erlangen.de/InnoLab/ss24/golf-drone/-/wikis/uploads/31a92f3dc70416b2f2cda0132a0474e0/Logo_black_101.png" alt="Logo" width="80" height="80">
-  </a>
+
 
 <h3 align="center">MADgolf</h3>
 
