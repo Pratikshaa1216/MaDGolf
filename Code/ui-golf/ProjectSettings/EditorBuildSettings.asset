@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/App Screens/LogoIntro.unity
+    guid: a29b1e6885a4a4607b618fa157bd22a2
+  - enabled: 1
+    path: Assets/Scenes/App Screens/Landing.unity
+    guid: 65462fff90d894bbead5ade723ab62d0
+  - enabled: 1
+    path: Assets/Scenes/App Screens/ARSelector.unity
+    guid: 7cbc0b1a1388e42d78d822839c5e207b
+  - enabled: 1
+    path: Assets/Scenes/App Screens/ARFieldPerspective.unity
+    guid: 4196ee40b81aa43f5b01477d06017201
+  - enabled: 1
+    path: Assets/Scenes/App Screens/Tee.unity
+    guid: 31d0154b276894a12bedbc3160683f3a
+  - enabled: 1
+    path: Assets/Scenes/App Screens/Score Board.unity
+    guid: 1b87ccafd507144789f335bf6ffa9049
+  - enabled: 1
+    path: Assets/Scenes/App Screens/How To.unity
+    guid: a753a4907e58d4f699d5e3106fe7e40d
+  m_configObjects:
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 6d62a247df9e546218be2046f6fade5f, type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: b585c77e2c3594bd99712e2c5aa907d8, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: e2a8ec0f238d14f37a4ef46cda16a2f6, type: 2}

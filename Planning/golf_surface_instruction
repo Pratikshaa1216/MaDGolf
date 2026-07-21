@@ -1,0 +1,44 @@
+Drone: 
+
+Rent (Grooer):
+
+DJI Mini -> 35-70€
+GoPro -> Combine with available drone -> 15-25€
+
+Drone license:
+
+https://lba-openuav.de/einstieg/ -> 25€
+
+LIDAR is more precise but too expensive (what I found).
+To reduce the precision aspect you can reduce the range of the environment.
+
+First Simulations are made on this homepage:
+
+https://www.golfclub-herzogenaurach.de/platz/drohnenaufnahmen/
+
+Software:
+
+Cloud Compare. (Measure, visualize, expand and improve the 3D Modell generated in ODM):
+
+https://www.danielgm.net/cc/ -> free
+
+Open Drone Map (for generating the 3D Modell):
+
+https://www.opendronemap.org -> free
+
+Important is the overlap rate to get more precise results.
+
+Simulation Model Software:
+
+Unity (Formats e.g. OBJ, FBX, PLY)
+-> via C# Deep Learning Strategies
+
+Typical workflow to generate a 3D Model in unity:
+
+1. Generate Video/Picture footage (overlap rate 60-80%) -> 80-90 Pictures for a range of 20-30m
+2. Generate a 3D Model (structure model) on ODM
+3. Download the folder with the object and the textures
+4. Upload it on unity in a separate folder and drag the object into the scene
+5. Create a Mesh Collider to set the base of the map
+-> Further activities (hole creation, deep learning) 
+
